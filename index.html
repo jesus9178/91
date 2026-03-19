@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 这里的标题就是转发到群里显示的卡片文字 -->
+    <!-- 1. 卡片大标题 -->
     <title>我是刘宇宸，参加的公益活动可得二课学分+志愿时长，现在仍可报名，还有精美奖品等着你</title>
+    
+    <!-- 2. 控制卡片下方显示的小字正文 -->
+    <meta name="description" content="快来点击链接为大刘宇宸投一票吧">
+    
+    <!-- 3. 引导微信抓取第一张图做缩略图 -->
+    <link rel="image_src" href="1.png">
+    
     <style>
         body { margin: 0; padding: 0; background-color: #ffffff; }
         img { width: 100%; height: auto; display: block; }
     </style>
 </head>
 <body>
-    <!-- 这里放你的两张图片，确保文件名和 GitHub 仓库里的一模一样 -->
+    <!-- 这里确保你的 GitHub 仓库里有两个文件：1.png 和 2.jpg -->
     <img src="1.png">
     <img src="2.jpg">
 </body>
